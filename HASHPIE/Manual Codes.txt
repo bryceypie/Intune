@@ -1,0 +1,21 @@
+⚠️ Disclaimer
+All scripts, files, and executables in this repository are provided "AS IS" without warranty of any kind. We expressly disclaim all liability for any damages or losses arising out of or in connection with the use of these scripts, files, and executables.
+
+It is strongly recommended to test all items in a non-production, test environment before deploying them into production. Use at your own risk.
+--- --- --- --- --- --- --- --- --- ---
+
+Manual Codes:
+
+Open Elevated (Run as Administrator) Terminal or PowerShell
+
+Copy and paste each line to the Terminal/PowerShell, then press enter.
+--- --- --- MANUAL CODES --- --- --- 
+New-Item -Type Directory -Path "C:\HWID"
+Set-Location -Path "C:\HWID"
+$env:Path += ";C:\Program Files\WindowsPowerShell\Scripts"
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy RemoteSigned
+Install-Script -Name Get-WindowsAutopilotInfo
+Get-WindowsAutopilotInfo -OutputFile AutopilotHWID.csv
+--- --- --- MANUAL CODES --- --- --- 
+navigate to C:\HWID
+There is the .csv needed that the Register.bat and Reg.ps1 files retrieve for you!
