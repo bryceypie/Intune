@@ -1,2 +1,2 @@
 # Intune
-Intune Assistance
+Intune Assistance - Currently for Hashes...
