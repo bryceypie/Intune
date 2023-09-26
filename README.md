@@ -16,5 +16,5 @@ Each script, file, or executable in this repository is designed for specific tas
 
 (List the scripts, files, and executables included in the repository, along with a brief description of each.)
 
-- **HASHED**: Hash receiving tool for a computer that has already been setup.
-- **HASHED-OOBE**: Hash receiving tool when setting up a new Windows 10 or 11 device, while in OOBE mode. 
+- **HASHPIE**: Hash receiving tool for a computer that has already been setup.
+- **HASHPIE-OOBE**: Hash receiving tool when setting up a new Windows 10 or 11 device, while in OOBE mode. 
